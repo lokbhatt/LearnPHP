@@ -7,7 +7,7 @@
     <title>Day 1 PHP session</title>
 </head>
 <style>
-    .box{
+    .box {
         background-color: aqua;
         font-family: 'Times New Roman', Times, serif;
         font-size: 16px;
@@ -32,6 +32,19 @@
                 2. dynamic: means capable of action or change. content generated in real time and display <br>
                 different content using same sources of code."
         ?>
+    </div>
+    <div>
+        <h2>What can do PHP?</h2>
+        <p>
+            <?php
+            echo "PHP can generate dynamic web page.<br>";
+            echo "PHP can create read open write delete and close the file.<br>";
+            echo "PHP collect form data.<br>";
+            echo "PHP send and receive cookies.<br>";
+            echo "PHP can used to control user access.<br>";
+            echo "PHP can encrypt data.";
+            ?>
+        </p>
     </div>
 </body>
 
